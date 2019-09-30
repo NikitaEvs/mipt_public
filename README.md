@@ -1,2 +1,2 @@
 # mipt_public
-My public materials
+Public materials
