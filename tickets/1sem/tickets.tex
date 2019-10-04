@@ -6,6 +6,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english, russian]{babel}
 \usepackage{hyperref, array, xcolor, listings, amsmath, ragged2e, forest}
+\usepackage{amsmath}
+\usepackage{listings}
 
 \title{Конспекты по проге 1 семестр}
 \date{}
@@ -327,4 +329,142 @@
 		\item Массива
 		\item Списка
 	\end{center}
+	\section{Сортировки и порядковые статистики}
+	\subsection{Задача сортировки, устойчивость, локальность}
+	Coming soon
+	\subsection{Квадратичные сортировки}
+	Coming soon
+	\subsection{Сортировка слиянием}
+	Coming soon
+	\subsection{Сортировка с помощью кучи}
+	Coming soon	
+	\subsection{Слияние отсортированных массивов с помощью кучи}
+	Coming soon	
+	\subsection{Нижняя оценка времени работы для сортировок сравнением}
+	Coming soon
+	\subsection{Быстрая сортировка}
+	\paragraph{Принцип}
+	Есть массив $a[0...n-1]$ и некоторый подмассив $a[l..r]$
+	\begin{center}
+		\item Разделим $a[l...r]$ на две части по опорному элементу $q$: $a[l...q]$ и $a[q+1...r]$ так что каждый элемент $a[l...q]$ меньше или равен $a[q]$, который не превышает любой элемент подмассива $a[q+1...r]$
+		\item Подмассивы $a[l...q]$ и $a[q+q...r]$ сортируются с помощью рекурсивного вызова быстрой сортировки
+	\end{center}
+	\paragraph{Схема Ломуто}
+	\begin{center}
+		\item Выбираем $q = a[r]$
+		\begin{lstlisting}
+			q = a[r];
+			i = l;
+			for (int j = l; j < r - 1, j++) {
+				if (a[j] < q) {
+					swap(a[i], a[j]);
+					i++;
+				}
+			}
+			swap(a[i], a[r];
+		\end{lstlisting}
+	\end{center}
+	\newpage
+	\paragraph{Схема Хоара}
+	\begin{center}
+		\begin{lstlisting}
+			q = A[(r + l)/2];
+			i = l;
+			j = r;
+			while (i <= j) {
+				while (a[i] < q) {
+					i++;
+				}
+				
+				while (a[j] > q) {
+					j--;
+				}
+				if (i >= j) {
+					break;
+				}
+				swap(a[i], a[j]);
+				i++;
+				j--;
+			}
+		\end{lstlisting}
+	\end{center}
+	\paragraph{Свойства}
+	\begin{itemize}
+		\item Локальная
+		\item Недетерминированная
+		\item Неустойчивая
+	\end{itemize}
+	\paragraph{Асимптотика}
+	Дерево рекурсий
+	\begin{center}
+	\begin{forest}
+		for tree={
+			grow=south,
+			circle, draw, minimum size=3ex, inner sep=1pt,
+			s sep=7mm
+			}
+		[n
+			[n/2
+				[...
+					[1]
+				]
+				[...
+					[1]
+				]
+			]
+			[n/2
+				[...
+					[1]
+				]
+				[...
+					[1]
+				]
+			]
+		]
+	\end{forest}
+	\end{center}
+	\[
+		T(n) = 2T(\frac{n}{2}) + O(n)
+	\]
+	Худший случай: $T(n) = T(n-1) + \Theta(n)$ (закинули один элемент от partitional) \\
+	\[ 
+		T(n) = \sum_{k = 1}^{n} \Theta(k) = \Theta(\sum_{k=1}^{n} k) = \Theta(n^2) 
+	\]
+	\newpage
+	\paragraph{Среднее время работы}
+	$O(n\log{n})$
+	\paragraph{Доказательство}
+	Пусть $X$ - суммарное количество операций сравнения с опорным элементом. Рассмотрим массив
+	$[z_{0}...z_{n}]$, пусть $z_{ij} = [z_{i}...z_{j}]$ \\
+	Опорный элемент дальше не участвует в сравнении $\Rightarrow$ сравнение каждой пары $\leq$ 1 раза \\
+	\[
+	X = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} X_{ij}
+	\] 
+	где $X_{ij} = 1$, если произошло сравнение $z_{i}$ и $z_{j}$, иначе 0 \\
+	Применим мат. ожидание к каждой части
+	\[ 
+	E[X] = E[\sum_{i=1}^{n-1} \sum_{j=i+1}^{n} X_{ij}] = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} E[X_{ij}] = \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} Pr(z_{i}, z_{j})
+	\]		
+	где $Pr(z_{i}, z_{j})$ - вероятность того, что $z_{i}$ сравнивается с $z_{j}$ \\
+	Пусть все элементы различны \\
+	$x$ - опорный $\Rightarrow (\forall z_{i}, z_{j} \colon z_{i} < x < z_{j} \Rightarrow$ $z_{i}$ и $z_{j}$ не будут сравниваться)  \\
+	Если $z_{i}$ - опорный, то он сравнивается с каждым элементом $z_{ij}$ кроме себя \\
+	Значит $z_{i}$ и $z_{j}$ будут сравниваться, когда первым в $z_{ij}$ будет выбран один из них \\
+	$X_{ij} = 1 \Leftrightarrow z_{i}$ - опорный или $z_{j}$ - опорный
+	\[ 
+	Pr(z_{i}, z_{j}) = Pr(z_{i}) + Pr(z_{j}) = \frac{1}{j-i+1} + \frac{1}{j-i+1} = \frac{2}{j-i+1}
+	\]
+	где $Pr(z_{i})$ - вероятность того, что первым элементом был $z_{i}$, а $Pr(z_{j})$ - вероятность того, что первым был $z_{j}$, тогда
+	\[
+	E[X] =  \sum_{i=1}^{n-1} \sum_{j=i+1}^{n} \frac{2}{j-i+1}
+	\]
+	Пусть $k = j - i$, тогда
+	\[
+	E[X] =  \sum_{i=1}^{n-1} \sum_{k=1}^{n-i} \frac{2}{k+1} = \sum_{i=1}^{n-1} \sum_{k=1}^{n-i} \frac{2}{k} = \sum_{i=1}^{n-1} O(\log{n}) = O(n\log{n})
+	\]
+	\paragraph{Улучшения быстрой сортировки}
+	\begin{itemize}
+		\item Выбор медианы из первого, среднего и последнего элементов и отсечение рекурсии меньших подмассивов (с помощью сортировок вставками)
+		\item Разделение на три части (применяют, если много одинаковых элементов)
+	\end{itemize}
 \end{document}
