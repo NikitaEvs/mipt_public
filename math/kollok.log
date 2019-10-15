@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.6)  14 OCT 2019 16:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.6)  15 OCT 2019 14:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**tickets.tex
-(./tickets.tex
+**kollok.tex
+(./kollok.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 12 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -856,618 +856,22 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip61
 \JustifyingParindent=\skip62
 )
-(/home/hutu/texmf/tex/latex/forest/forest.sty
-Package: forest 2017/07/14 v2.1.5 Drawing (linguistic) trees
-
-(/home/hutu/texmf/tex/latex/pgf/frontendlayer/tikz.sty
-(/home/hutu/texmf/tex/latex/pgf/basiclayer/pgf.sty
-(/home/hutu/texmf/tex/latex/pgf/utilities/pgfrcs.sty
-(/home/hutu/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks25
-\pgfutil@tempdima=\dimen131
-\pgfutil@tempdimb=\dimen132
-
-(/home/hutu/texmf/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
-(/home/hutu/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box30
-
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-(/home/hutu/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
-))
-Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-
-(/home/hutu/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+(/home/hutu/texmf/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip63
+\enit@outerparindent=\dimen131
+\enit@toks=\toks25
+\enit@inbox=\box30
+\enitdp@description=\count122
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
-)
-\Gin@req@height=\dimen133
-\Gin@req@width=\dimen134
-)
-(/home/hutu/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
-(/home/hutu/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
-
-(/home/hutu/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks26
-\pgfkeys@temptoks=\toks27
-
-(/home/hutu/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks28
-))
-\pgf@x=\dimen135
-\pgf@y=\dimen136
-\pgf@xa=\dimen137
-\pgf@ya=\dimen138
-\pgf@xb=\dimen139
-\pgf@yb=\dimen140
-\pgf@xc=\dimen141
-\pgf@yc=\dimen142
-\w@pgf@writea=\write3
-\r@pgf@reada=\read1
-\c@pgf@counta=\count122
-\c@pgf@countb=\count123
-\c@pgf@countc=\count124
-\c@pgf@countd=\count125
-\t@pgf@toka=\toks29
-\t@pgf@tokb=\toks30
-\t@pgf@tokc=\toks31
-
-(/home/hutu/texmf/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
-)
-Driver file for pgf: pgfsys-pdftex.def
-
-(/home/hutu/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
-
-(/home/hutu/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
-)))
-(/home/hutu/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count126
-\pgfsyssoftpath@bigbuffer@items=\count127
-)
-(/home/hutu/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-))
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
-
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmath.code.tex
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen143
-\pgfmath@count=\count128
-\pgfmath@box=\box31
-\pgfmath@toks=\toks32
-\pgfmath@stack@operand=\toks33
-\pgfmath@stack@operation=\toks34
-)
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code
-.tex))) (/home/hutu/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count129
-))
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen144
-\pgf@picmaxx=\dimen145
-\pgf@picminy=\dimen146
-\pgf@picmaxy=\dimen147
-\pgf@pathminx=\dimen148
-\pgf@pathmaxx=\dimen149
-\pgf@pathminy=\dimen150
-\pgf@pathmaxy=\dimen151
-\pgf@xx=\dimen152
-\pgf@xy=\dimen153
-\pgf@yx=\dimen154
-\pgf@yy=\dimen155
-\pgf@zx=\dimen156
-\pgf@zy=\dimen157
-)
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen158
-\pgf@path@lasty=\dimen159
-)
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen160
-\pgf@shorten@start@additional=\dimen161
-)
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box32
-\pgf@hbox=\box33
-\pgf@layerbox@main=\box34
-\pgf@picture@serial@count=\count130
-)
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen162
-)
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen163
-\pgf@pt@y=\dimen164
-\pgf@pt@temp=\dimen165
-)
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
-)
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
-)
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
-)
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen166
-)
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen167
-\pgf@sys@shading@range@num=\count131
-)
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
-
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box35
-))
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
-)
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
-)
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
-)))
-(/home/hutu/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box36
-)
-(/home/hutu/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
-)
-(/home/hutu/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen168
-\pgf@nodesepend=\dimen169
-)
-(/home/hutu/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-))
-(/home/hutu/texmf/tex/latex/pgf/utilities/pgffor.sty
-(/home/hutu/texmf/tex/latex/pgf/utilities/pgfkeys.sty
-(/home/hutu/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(/home/hutu/texmf/tex/latex/pgf/math/pgfmath.sty
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmath.code.tex))
-(/home/hutu/texmf/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
-
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen170
-\pgffor@skip=\dimen171
-\pgffor@stack=\toks35
-\pgffor@toks=\toks36
-))
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
-
-(/home/hutu/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count132
-\pgfplotmarksize=\dimen172
-)
-\tikz@lastx=\dimen173
-\tikz@lasty=\dimen174
-\tikz@lastxsaved=\dimen175
-\tikz@lastysaved=\dimen176
-\tikzleveldistance=\dimen177
-\tikzsiblingdistance=\dimen178
-\tikz@figbox=\box37
-\tikz@figbox@bg=\box38
-\tikz@tempbox=\box39
-\tikz@tempbox@bg=\box40
-\tikztreelevel=\count133
-\tikznumberofchildren=\count134
-\tikznumberofcurrentchild=\count135
-\tikz@fig@count=\count136
-
-(/home/hutu/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count137
-\pgfmatrixcurrentcolumn=\count138
-\pgf@matrix@numberofcolumns=\count139
-)
-\tikz@expandcount=\count140
-
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
-hs.code.tex
-File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-)))
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.code.tex
-File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
-
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.geometric.code.tex
-File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
-)
-
-(/home/hutu/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.c
-ode.tex
-File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
-
-))
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.misc.code.tex
-File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
-
-(/home/hutu/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.t
-ex
-File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
-))
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.symbols.code.tex
-File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
-
-(/home/hutu/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.cod
-e.tex
-File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
-))
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.arrows.code.tex
-File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
-
-(/home/hutu/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code
-.tex
-File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
-))
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.callouts.code.tex
-(/home/hutu/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.co
-de.tex))
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.multipart.code.tex
-File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
-)
-
-(/home/hutu/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.c
-ode.tex
-File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
-
-\pgfnodepartlowerbox=\box41
-\pgfnodeparttwobox=\box42
-\pgfnodepartthreebox=\box43
-\pgfnodepartfourbox=\box44
-\pgfnodeparttwentybox=\box45
-\pgfnodepartnineteenbox=\box46
-\pgfnodeparteighteenbox=\box47
-\pgfnodepartseventeenbox=\box48
-\pgfnodepartsixteenbox=\box49
-\pgfnodepartfifteenbox=\box50
-\pgfnodepartfourteenbox=\box51
-\pgfnodepartthirteenbox=\box52
-\pgfnodeparttwelvebox=\box53
-\pgfnodepartelevenbox=\box54
-\pgfnodeparttenbox=\box55
-\pgfnodepartninebox=\box56
-\pgfnodeparteightbox=\box57
-\pgfnodepartsevenbox=\box58
-\pgfnodepartsixbox=\box59
-\pgfnodepartfivebox=\box60
-)))
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.c
-ode.tex
-File: tikzlibraryfit.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.5)
-)
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.
-code.tex
-File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
-)
-(/home/hutu/texmf/tex/generic/pgf/libraries/pgflibraryintersections.code.tex
-(/home/hutu/texmf/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
-\pgf@intersect@solutions=\count141
-)
-(/home/hutu/texmf/tex/latex/pgfopts/pgfopts.sty
-Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks37
-\pgfopts@list@add@b@toks=\toks38
-)
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count142
-)
-(/home/hutu/texmf/tex/latex/elocalloc/elocalloc.sty
-Package: elocalloc 2016/12/15 v0.03 local allocation for LaTeX 2015+ (DPC)
-)
-
-! LaTeX Error: File `environ.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2018/02/21 L3 programming layer (loader) 
-
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2018/02/21 L3 programming layer (code)
-\c_max_int=\count143
-\l_tmpa_int=\count144
-\l_tmpb_int=\count145
-\g_tmpa_int=\count146
-\g_tmpb_int=\count147
-\g__intarray_font_int=\count148
-\g__prg_map_int=\count149
-\c_log_iow=\count150
-\l_iow_line_count_int=\count151
-\l__iow_line_target_int=\count152
-\l__iow_one_indent_int=\count153
-\l__iow_indent_int=\count154
-\c_zero_dim=\dimen179
-\c_max_dim=\dimen180
-\l_tmpa_dim=\dimen181
-\l_tmpb_dim=\dimen182
-\g_tmpa_dim=\dimen183
-\g_tmpb_dim=\dimen184
-\c_zero_skip=\skip63
-\c_max_skip=\skip64
-\l_tmpa_skip=\skip65
-\l_tmpb_skip=\skip66
-\g_tmpa_skip=\skip67
-\g_tmpb_skip=\skip68
-\c_zero_muskip=\muskip12
-\c_max_muskip=\muskip13
-\l_tmpa_muskip=\muskip14
-\l_tmpb_muskip=\muskip15
-\g_tmpa_muskip=\muskip16
-\g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count155
-\c__fp_leading_shift_int=\count156
-\c__fp_middle_shift_int=\count157
-\c__fp_trailing_shift_int=\count158
-\c__fp_big_leading_shift_int=\count159
-\c__fp_big_middle_shift_int=\count160
-\c__fp_big_trailing_shift_int=\count161
-\c__fp_Bigg_leading_shift_int=\count162
-\c__fp_Bigg_middle_shift_int=\count163
-\c__fp_Bigg_trailing_shift_int=\count164
-\c__fp_rand_size_int=\count165
-\c__fp_rand_four_int=\count166
-\c__fp_rand_eight_int=\count167
-\l__sort_length_int=\count168
-\l__sort_min_int=\count169
-\l__sort_top_int=\count170
-\l__sort_max_int=\count171
-\l__sort_true_max_int=\count172
-\l__sort_block_int=\count173
-\l__sort_begin_int=\count174
-\l__sort_end_int=\count175
-\l__sort_A_int=\count176
-\l__sort_B_int=\count177
-\l__sort_C_int=\count178
-\l__tl_build_start_index_int=\count179
-\l__tl_build_index_int=\count180
-\l__tl_analysis_normal_int=\count181
-\l__tl_analysis_index_int=\count182
-\l__tl_analysis_nesting_int=\count183
-\l__tl_analysis_type_int=\count184
-\l__regex_internal_a_int=\count185
-\l__regex_internal_b_int=\count186
-\l__regex_internal_c_int=\count187
-\l__regex_balance_int=\count188
-\l__regex_group_level_int=\count189
-\l__regex_mode_int=\count190
-\c__regex_cs_in_class_mode_int=\count191
-\c__regex_cs_mode_int=\count192
-\l__regex_catcodes_int=\count193
-\l__regex_default_catcodes_int=\count194
-\c__regex_catcode_D_int=\count195
-\c__regex_catcode_S_int=\count196
-\c__regex_catcode_L_int=\count197
-\c__regex_catcode_O_int=\count198
-\c__regex_catcode_A_int=\count199
-\c__regex_all_catcodes_int=\count266
-\l__regex_show_lines_int=\count267
-\l__regex_min_state_int=\count268
-\l__regex_max_state_int=\count269
-\l__regex_left_state_int=\count270
-\l__regex_right_state_int=\count271
-\l__regex_capturing_group_int=\count272
-\l__regex_min_pos_int=\count273
-\l__regex_max_pos_int=\count274
-\l__regex_curr_pos_int=\count275
-\l__regex_start_pos_int=\count276
-\l__regex_success_pos_int=\count277
-\l__regex_curr_char_int=\count278
-\l__regex_curr_catcode_int=\count279
-\l__regex_last_char_int=\count280
-\l__regex_case_changed_char_int=\count281
-\l__regex_curr_state_int=\count282
-\l__regex_step_int=\count283
-\l__regex_min_active_int=\count284
-\l__regex_max_active_int=\count285
-\l__regex_replacement_csnames_int=\count286
-\l__regex_match_count_int=\count287
-\l__regex_min_submatch_int=\count288
-\l__regex_submatch_int=\count289
-\l__regex_zeroth_submatch_int=\count290
-\g__regex_trace_regex_int=\count291
-\c_empty_box=\box61
-\l_tmpa_box=\box62
-\l_tmpb_box=\box63
-\g_tmpa_box=\box64
-\g_tmpb_box=\box65
-\l__box_top_dim=\dimen185
-\l__box_bottom_dim=\dimen186
-\l__box_left_dim=\dimen187
-\l__box_right_dim=\dimen188
-\l__box_top_new_dim=\dimen189
-\l__box_bottom_new_dim=\dimen190
-\l__box_left_new_dim=\dimen191
-\l__box_right_new_dim=\dimen192
-\l__box_internal_box=\box66
-\l__coffin_internal_box=\box67
-\l__coffin_internal_dim=\dimen193
-\l__coffin_offset_x_dim=\dimen194
-\l__coffin_offset_y_dim=\dimen195
-\l__coffin_x_dim=\dimen196
-\l__coffin_y_dim=\dimen197
-\l__coffin_x_prime_dim=\dimen198
-\l__coffin_y_prime_dim=\dimen199
-\c_empty_coffin=\box68
-\l__coffin_aligned_coffin=\box69
-\l__coffin_aligned_internal_coffin=\box70
-\l_tmpa_coffin=\box71
-\l_tmpb_coffin=\box72
-\l__coffin_display_coffin=\box73
-\l__coffin_display_coord_coffin=\box74
-\l__coffin_display_pole_coffin=\box75
-\l__coffin_display_offset_dim=\dimen256
-\l__coffin_display_x_dim=\dimen257
-\l__coffin_display_y_dim=\dimen258
-\l__coffin_bounding_shift_dim=\dimen259
-\l__coffin_left_corner_dim=\dimen260
-\l__coffin_right_corner_dim=\dimen261
-\l__coffin_bottom_corner_dim=\dimen262
-\l__coffin_top_corner_dim=\dimen263
-\l__coffin_scaled_total_height_dim=\dimen264
-\l__coffin_scaled_width_dim=\dimen265
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count292
-\l__driver_tmp_box=\box76
-))
-Package: xparse 2018/02/21 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count293
-\g__xparse_grabber_int=\count294
-\l__xparse_m_args_int=\count295
-\l__xparse_mandatory_args_int=\count296
-\l__xparse_v_nesting_int=\count297
-)
-
-! LaTeX Error: File `inlinedef.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-\ID@usercommands=\toks39
-
-Package forest Warning: Could not patch inlinedef! Disabling it. Except in some
- special situations (nested arrays), stuff will probably still work, but there'
-s no guarantee. Please report this situation to the author (but check first if 
-a new version already exists). on input line 128.
-
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \useforestlibrary with sig. 's O{} m' on line 166.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \ProvidesForestLibrary with sig. 'm O{}' on line 176.
-.................................................
-\safeloop@depth=\count298
-\safeRKloop@depth=\count299
-\forest@temp@dimen=\dimen266
-\forest@temp@count=\count300
-\forest@n=\count301
-\forest@temp@global@count=\count302
-\forest@temp@toks=\toks40
-\forest@temparray@M=\count303
-\forest@temparray@N=\count304
-\forest@global@temparray@M=\count305
-\forest@global@temparray@N=\count306
-\forest@isnum@count=\count307
-\forest@isdim@nonintpart=\count308
-\forest@isdim@dimen=\dimen267
-\forest@sort@m=\count309
-\forest@sort@k=\count310
-\forest@sort@p=\count311
-\bracket@content=\toks41
-\bracket@afterthought=\toks42
-\forest@node@maxid=\count312
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \forestdebugtypeouttrees with sig. 'o' on line 2303.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \forestdebugtypeouttree with sig. 'd() O{\forest@cn }' on
-. line 2348.
-.................................................
-\forest@process@left@M=\count313
-\forest@process@left@N=\count314
-\forest@process@right@M=\count315
-\forest@process@right@N=\count316
-\forest@process@saved@M=\count317
-\forest@process@saved@N=\count318
-\forest@process@result@M=\count319
-\forest@process@result@N=\count320
-\forest@process@n=\count321
-\forest@nodewalk@branch@toks=\toks43
-\forest@nodewalk@shortsteps@resolution=\toks44
-\forest@do@dynamics=\toks45
-\forest@box=\box77
-\forest@xg=\dimen268
-\forest@yg=\dimen269
-\forest@xs=\dimen270
-\forest@ys=\dimen271
-\forest@pi@toks=\toks46
-\forest@segment@toks=\toks47
-\forest@PIi@toks=\toks48
-\forest@PIii@toks=\toks49
-\forest@copy@in=\read2
-\forest@copy@out=\write4
-.................................................
-. LaTeX info: "xparse/define-environment"
-. 
-. Defining environment 'forest' with sig. 'D(){}' on line 8510.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \Forest with sig. 's D(){} m' on line 8515.
-.................................................
-\forest@externalize@max@outer@n=\count322
-\forest@externalize@inner@n=\count323
-) (./tickets.aux)
-\openout1 = `tickets.aux'.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (./kollok.aux)
+\openout1 = `kollok.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
@@ -1522,7 +926,7 @@ LaTeX Font Info:    ... okay on input line 15.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box78
+\AtBeginShipoutBox=\box31
 Package hyperref Info: Link coloring OFF on input line 15.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1530,624 +934,321 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count324
+\c@section@level=\count123
 )
 LaTeX Info: Redefining \ref on input line 15.
 LaTeX Info: Redefining \pageref on input line 15.
 LaTeX Info: Redefining \nameref on input line 15.
 
-(./tickets.out) (./tickets.out)
-\@outlinefile=\write5
-\openout5 = `tickets.out'.
+(./kollok.out) (./kollok.out)
+\@outlinefile=\write3
+\openout3 = `kollok.out'.
 
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count325
-\scratchdimen=\dimen272
-\scratchbox=\box79
-\nofMPsegments=\count326
-\nofMParguments=\count327
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count328
-\MPscratchDim=\dimen273
-\MPnumerator=\count329
-\makeMPintoPDFobject=\count330
-\everyMPtoPDFconversion=\toks51
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+\scratchcounter=\count124
+\scratchdimen=\dimen132
+\scratchbox=\box32
+\nofMPsegments=\count125
+\nofMParguments=\count126
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count127
+\MPscratchDim=\dimen133
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
+\everyMPtoPDFconversion=\toks27
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-\c@lstlisting=\count331
-
-ABD: EverySelectfont initializing macros
+\c@lstlisting=\count130
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 15.
- ABD: EveryShipout initializing macros<<ot1.cmap>>
+<<ot1.cmap>>
+LaTeX Font Info:    Try loading font information for U+msa on input line 17.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 17.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
 LaTeX Warning: No \author given.
 
-(./tickets.toc)
-\tf@toc=\write6
-\openout6 = `tickets.toc'.
+(./kollok.toc)
+\tf@toc=\write4
+\openout4 = `kollok.toc'.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 18.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 18.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 18.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 18.
+(babel)             in language  on input line 18.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 20.
+(babel)             in language  on input line 19.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 20.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 21.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 21.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 74.
+(babel)             in language  on input line 19.
 
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--37
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 37.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 37.
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--54
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 54.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 54.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 54.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 54.
+[2]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 54.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 54.
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 70.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 70.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 75.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 75.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 80.
+(babel)             in language  on input line 87.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 80.
+(babel)             in language  on input line 87.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 80.
+(babel)             in language  on input line 87.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 80.
- [2]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 81.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 81.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 114.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 114.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 127.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 127.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 127.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 127.
+(babel)             in language  on input line 87.
  [3]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 128.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 128.
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 151.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 151.
+(babel)             in language  on input line 94.
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--105
+
+ []
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 151.
+(babel)             in language  on input line 105.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 151.
+(babel)             in language  on input line 105.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 120.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 120.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 120.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 120.
 [4]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 152.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 152.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 153.
+(babel)             in language  on input line 133.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 153.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 156.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 156.
+(babel)             in language  on input line 133.
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--161
+Underfull \hbox (badness 10000) in paragraph at lines 145--148
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 168.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 168.
+(babel)             in language  on input line 148.
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--182
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 182.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 182.
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 199.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 199.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 199.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 199.
+(babel)             in language  on input line 154.
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
-
- []
-
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 215.
+(babel)             in language  on input line 175.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 215.
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
-
- []
-
+(babel)             in language  on input line 175.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 237.
+(babel)             in language  on input line 188.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 237.
-! Undefined control sequence.
-\environment forest code ...fig {#1}\Collect@Body 
-                                                  \forest@env 
-l.239 	\begin{forest}
-                     
-? 
-! Argument of \bracket@Parse@token has an extra }.
-<inserted text> 
-                \par 
-l.240 		f
-         or tree={
-? 
-Runaway argument?
-! Paragraph ended before \bracket@Parse@token was complete.
-<to be read again> 
-                   \par 
-l.240 		f
-         or tree={
-? 
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.240 		f
-         or tree={
-? 
+(babel)             in language  on input line 188.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 261.
+(babel)             in language  on input line 190.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 261.
+(babel)             in language  on input line 190.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 261.
+(babel)             in language  on input line 190.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 261.
-[6]
+(babel)             in language  on input line 190.
+ [6]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 288.
+(babel)             in language  on input line 203.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 288.
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--300
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--306
+(babel)             in language  on input line 203.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 223.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 223.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 225.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 225.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 225.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 225.
+ [7]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 233.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 233.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 249.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 249.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 259.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 259.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 259.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 259.
+ [8]
+Underfull \hbox (badness 10000) in paragraph at lines 261--270
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 306.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 306.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 306.
+(babel)             in language  on input line 283.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 306.
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 310--311
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--319
-
- []
-
+(babel)             in language  on input line 283.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 319.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 319.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 332.
+(babel)             in language  on input line 295.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 332.
+(babel)             in language  on input line 295.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 333.
+(babel)             in language  on input line 295.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 333.
+(babel)             in language  on input line 295.
+[9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 335.
+(babel)             in language  on input line 301.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 335.
+(babel)             in language  on input line 301.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 337.
+(babel)             in language  on input line 301.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 337.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 339.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 339.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 341.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 341.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 341.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 341.
-[8]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 341.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 341.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 343.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 343.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 345.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 345.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 367.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 367.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 367.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 367.
- [9]
-! Undefined control sequence.
-\environment forest code ...fig {#1}\Collect@Body 
-                                                  \forest@env 
-l.400 	\begin{forest}
-                     
-? 
-! Argument of \bracket@Parse@token has an extra }.
-<inserted text> 
-                \par 
-l.401 		f
-         or tree={
-? 
-Runaway argument?
-! Paragraph ended before \bracket@Parse@token was complete.
-<to be read again> 
-                   \par 
-l.401 		f
-         or tree={
-? 
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.401 		f
-         or tree={
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 428--430
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 433.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 433.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 433.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 433.
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 437--440
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 470.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 470.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 470.
+(babel)             in language  on input line 301.
+ [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
+ (./kollok.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 470.
+Package rerunfilecheck Warning: File `kollok.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--477
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 478--480
-
- []
-
-
-Overfull \hbox (10.50891pt too wide) detected at line 482
-\OML/cmm/m/it/10 T\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ) \OMS/cms
-y/m/n/10 ^^T []\OML/cmm/m/it/10 n []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 T\OT1/cmr
-/m/n/10 (\OML/cmm/m/it/10 max\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 k \OMS/cmsy/m/n/
-10 ^^@ \OT1/cmr/m/n/10 1; \OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it
-/10 k\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/1
-0 1) = \OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1 + []\OML/cmm/m
-/it/10 n []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 T\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
- max\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 k \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1;
- \OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 k\OT1/cmr/m/n/10 )) =
- \OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1 + [] [] \OML/cmm/m/i
-t/10 T\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 k\OT1/cmr/m/n/10 )
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 487.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 487.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 487.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 487.
-[11]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 489.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 489.
-
-Underfull \hbox (badness 10000) in paragraph at lines 490--492
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 493--499
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 493--499
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 501.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 501.
-
-Underfull \hbox (badness 10000) in paragraph at lines 506--507
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 507.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 507.
-
-Underfull \hbox (badness 10000) in paragraph at lines 513--516
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 516.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 516.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 516.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 516.
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 517--521
-
- []
-
-
-! LaTeX Error: \begin{pmatrix} on input line 523 ended by \end{pmatrx}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.527 		\end{pmatrx}
-                    
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.527 		\end{pmatrx}
-                    
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.527 		\end{pmatrx}
-                    
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.527 		\end{pmatrx}
-                    
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.527 		\end{pmatrx}
-                    
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.527 		\end{pmatrx}
-                    
-? 
-! Missing \right. inserted.
-<inserted text> 
-                \right .
-l.527 		\end{pmatrx}
-                    
-? 
-
-! LaTeX Error: \begin{pmatrix} on input line 529 ended by \end{pmatrx}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.533 		\end{pmatrx}
-                    
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.533 		\end{pmatrx}
-                    
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.533 		\end{pmatrx}
-                    
-? 
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.533 		\end{pmatrx}
-                    
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.533 		\end{pmatrx}
-                    
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.533 		\end{pmatrx}
-                    
-? 
-! Missing \right. inserted.
-<inserted text> 
-                \right .
-l.533 		\end{pmatrx}
-                    
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 546--549
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 549.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 549.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 551.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 551.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 551.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 551.
-[13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 551.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 551.
- (./tickets.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 551.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 551.
-Package rerunfilecheck Info: File `tickets.out' has not changed.
-(rerunfilecheck)             Checksum: B570B6BB4CE84EDFA39D0708114C43F3;6519.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 551.
+Package rerunfilecheck Info: Checksums for `kollok.out':
+(rerunfilecheck)             Before: 4DA5910EC350974287D660644C04EB9F;1693
+(rerunfilecheck)             After:  EA4094C920BC440F8A683E9DE911AB85;1796.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 301.
  ) 
 Here is how much of TeX's memory you used:
- 40635 strings out of 494397
- 840387 string characters out of 6172288
- 900328 words of memory out of 5000000
- 43383 multiletter control sequences out of 15000+600000
- 539800 words of font info for 43 fonts, out of 8000000 for 9000
+ 12793 strings out of 494397
+ 173527 string characters out of 6172288
+ 257773 words of memory out of 5000000
+ 15889 multiletter control sequences out of 15000+600000
+ 14829 words of font info for 46 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 61i,8n,69p,10379b,1234s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/hutu/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk>
- </home/hutu/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk> <
-/home/hutu/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1000.600pk> </h
-ome/hutu/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </hom
-e/hutu/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1728.600pk></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy7.pfb>
-Output written on tickets.pdf (13 pages, 200055 bytes).
+ 28i,6n,35p,658b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/hutu/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk>
+ </home/hutu/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1000.600pk> <
+/home/hutu/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </h
+ome/hutu/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1728.600pk></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sym
+bols/msbm10.pfb>
+Output written on kollok.pdf (10 pages, 149617 bytes).
 PDF statistics:
- 665 PDF objects out of 1000 (max. 8388607)
- 363 compressed objects within 4 object streams
- 142 named destinations out of 1000 (max. 500000)
- 237 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 430 PDF objects out of 1000 (max. 8388607)
+ 240 compressed objects within 3 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
