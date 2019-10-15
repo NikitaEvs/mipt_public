@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.6)  15 OCT 2019 14:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.6)  15 OCT 2019 20:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1199,36 +1199,33 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 295.
 [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 301.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 301.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 301.
+(babel)             in language  on input line 314.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 301.
+(babel)             in language  on input line 314.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 314.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 314.
  [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
  (./kollok.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
-
-
-Package rerunfilecheck Warning: File `kollok.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `kollok.out':
-(rerunfilecheck)             Before: 4DA5910EC350974287D660644C04EB9F;1693
-(rerunfilecheck)             After:  EA4094C920BC440F8A683E9DE911AB85;1796.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 301.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
+Package rerunfilecheck Info: File `kollok.out' has not changed.
+(rerunfilecheck)             Checksum: 5B329725D94925234CA971517FA8B931;1899.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
  ) 
 Here is how much of TeX's memory you used:
- 12793 strings out of 494397
- 173527 string characters out of 6172288
+ 12799 strings out of 494397
+ 173594 string characters out of 6172288
  257773 words of memory out of 5000000
- 15889 multiletter control sequences out of 15000+600000
+ 15891 multiletter control sequences out of 15000+600000
  14829 words of font info for 46 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
  28i,6n,35p,658b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1245,10 +1242,10 @@ nts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type
 /amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sym
 bols/msbm10.pfb>
-Output written on kollok.pdf (10 pages, 149617 bytes).
+Output written on kollok.pdf (10 pages, 151007 bytes).
 PDF statistics:
- 430 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
- 84 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 444 PDF objects out of 1000 (max. 8388607)
+ 253 compressed objects within 3 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
