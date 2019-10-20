@@ -521,16 +521,34 @@
 	\paragraph{Пример}
 	\[
 		\begin{pmatrix}
-			329 \\
-			457 \\
-			436 \\
-		\end{pmatrx}
-		=
+			32[9] \\
+			45[6] \\
+			43[7] \\
+		\end{pmatrix}
+		\rightarrow
 		\begin{pmatrix}
-			329 \\
-			457 \\
-			439 \\
-		\end{pmatrx}
+			32[9] \\
+			43[7] \\
+			45[6] \\
+		\end{pmatrix}
+		\rightarrow
+		\begin{pmatrix}
+			32[9] \\
+			43[7] \\
+			45[6] \\
+		\end{pmatrix}
+		\rightarrow
+		\begin{pmatrix}
+			3[2]9 \\
+			4[3]7 \\
+			4[5]6 \\
+		\end{pmatrix}
+		\rightarrow
+		\begin{pmatrix}
+			[3]29 \\
+			[4]37 \\
+			[4]56 \\
+		\end{pmatrix}
 	\]	
 	\paragraph{Асимптотика LSD}
 	Пусть $m$ - количество разрядом \\
@@ -548,4 +566,75 @@
 	Если "делим плохо" (например, возможна ситуация строк BBBBA и BBBBC), асимптотика $O(nk)$ \\
 	\subsection{Бинарная быстрая сортировка}
 	Аналог MSD сортировки для строк, но алфавит состоит только из 0 и 1 
+	\subsection{Мастер-теорема}
+	\paragraph{О чём?} Мастер теорема позволяет найти асимптотическое решение рекуррентных соотношений, которые могут возникнуть в анализе асимптотики многих алгоритмов.
+	\paragraph{Формулировка} Пусть  $a \geq 1$ и $b > 1$ - константы, $f(n)$ - функция, $T(n)$ определено на множестве неотрицательных целых чисел как: 
+	\[
+		T(n) = a*T(\frac{n}{b}) + f(n)
+	\], где $n$ - размер задачи \\
+	$a$ - количество подзадач в рекурсии \\
+	$n/b$ - размер каждой подзадачи \\
+	$f(n)$ - оценка сложности работы вне рекурсии \\
+	Пример для merge-sort 
+	\[	
+		T(n) = 2T(\frac{n}{2}) + f(n)
+	\]	
+	где $f(n)$ - затраты на слияние $(n)$\\
+	
+	Зачем это нужно? В зависимости от нашей функции $f(n)$:
+	\paragraph{$f(n) = O(n^{c}), c < \log_{b} a)$} тогда получаем $T(n) = \Theta(n^{\log{b}a})$
+	\paragraph{Пример}
+	
+	\paragraph{$f(n) = \Theta(n^{c} \log^{k} n), c = \log_{b} a$} тогда получаем $T(n) = \Theta(n^{c}log^{k+1}n)$
+	\paragraph{Пример}
+	
+	\paragraph{$f(n) = \Omega(n^{c}), c > \log_{b}a$}
+	
+	
+	\paragraph{Доказательство}
+	Рассмотрим дерево рекурсии и частный случай $n = b^{k}$
+	\begin{forest}
+		for tree={
+			grow=south,
+			circle, draw, minimum size=3ex, inner sep=1pt,
+			s sep=7mm
+			}
+		[$f(n)$
+			[$f(\frac{n}{b})$
+				[...
+					[$f(\frac{n}{b^{i}})$]
+				]
+				[...
+					[$f(\frac{n}{b^{i}})$]
+				]
+			]
+			[$f(\frac{n}{b})$
+				[...
+					[$f(\frac{n}{b^{i}})$]
+				]
+				[...
+					[$f(\frac{n}{b^{i}})$]
+				]
+			]
+			[...
+			]
+		]
+	\end{forest}
+	где $i$ - уровень рекурсии, тогда на $i$ - ом уровне
+ получим суммарное количество операций $a^{i}f(\frac{n}{b^{i}})$ \\
+ 	Тогда \[
+ 		T(n) = \sum_{i=0}^{\log_{b}n}a^{i}f(\frac{n}{b^{i}}) + O(n^{\log_{b}a}) 
+ 	\]
+	$O(n^{\log_{b}a})$ - для последнего уровня рекурсии \\
+	\textbf{Доказательство для А} \\
+	\[
+		T(n) = \sum_{i=0}^{\log_{b}n}a^{i}f(\frac{n}{b^{i}}) + O(n^{\log_{b}a}) \geq \sum_{i = 0}^{\log_{b}n} a^{i}(\frac{n}{b^{i}})^{\log_{b}a-\epsilon} + O(n^{\log_{b}a}
+	\]
+	Тогда 
+	\[
+		\sum_{i = 0}^{\log_{b}n} a^{i}(\frac{n}{b^{i}})^{\log_{b}a-\epsilon} = n^{\log_{b}a - \epsilon} \sum_{i = 0}^{\log_{b}n} a^{i} b^{-i\log_{b}a} b^{i\epsilon} = n^{\log_{b}a - \epsilon} \sum_{i = 0}^{\log_{b}n}
+	\]
+	Дописать надо
+	
+	
 \end{document}
