@@ -1,12 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.6)  18 OCT 2019 16:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.22)  25 NOV 2019 12:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**tickets.tex
-(./tickets.tex
-LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 12 language(s) loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+**\nonstopmode \input{tickets.tex}
+(./tickets.tex (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
@@ -856,30 +853,29 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip61
 \JustifyingParindent=\skip62
 )
-(/home/hutu/texmf/tex/latex/forest/forest.sty
+(/usr/share/texlive/texmf-dist/tex/latex/forest/forest.sty
 Package: forest 2017/07/14 v2.1.5 Drawing (linguistic) trees
 
-(/home/hutu/texmf/tex/latex/pgf/frontendlayer/tikz.sty
-(/home/hutu/texmf/tex/latex/pgf/basiclayer/pgf.sty
-(/home/hutu/texmf/tex/latex/pgf/utilities/pgfrcs.sty
-(/home/hutu/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks25
 \pgfutil@tempdima=\dimen131
 \pgfutil@tempdimb=\dimen132
 
-(/home/hutu/texmf/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
-(/home/hutu/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box30
-
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/home/hutu/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
-(/home/hutu/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -897,15 +893,16 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen133
 \Gin@req@width=\dimen134
 )
-(/home/hutu/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
-(/home/hutu/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-(/home/hutu/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks26
 \pgfkeys@temptoks=\toks27
 
-(/home/hutu/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
 \pgfkeys@tmptoks=\toks28
 ))
 \pgf@x=\dimen135
@@ -925,33 +922,35 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 \t@pgf@toka=\toks29
 \t@pgf@tokb=\toks30
 \t@pgf@tokc=\toks31
-
-(/home/hutu/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(/home/hutu/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-(/home/hutu/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(/home/hutu/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count126
 \pgfsyssoftpath@bigbuffer@items=\count127
 )
-(/home/hutu/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmath.code.tex
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen143
 \pgfmath@count=\count128
 \pgfmath@box=\box31
@@ -959,19 +958,28 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 \pgfmath@stack@operand=\toks33
 \pgfmath@stack@operation=\toks34
 )
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code
-.tex))) (/home/hutu/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count129
 ))
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen144
 \pgf@picmaxx=\dimen145
@@ -988,100 +996,113 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen156
 \pgf@zy=\dimen157
 )
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen158
 \pgf@path@lasty=\dimen159
 )
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen160
 \pgf@shorten@start@additional=\dimen161
 )
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box32
 \pgf@hbox=\box33
 \pgf@layerbox@main=\box34
 \pgf@picture@serial@count=\count130
 )
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen162
 )
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen163
 \pgf@pt@y=\dimen164
 \pgf@pt@temp=\dimen165
 )
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen166
 )
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen167
 \pgf@sys@shading@range@num=\count131
 )
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box35
 ))
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(/home/hutu/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(/home/hutu/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box36
-)
-(/home/hutu/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-(/home/hutu/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen168
 \pgf@nodesepend=\dimen169
 )
-(/home/hutu/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-))
-(/home/hutu/texmf/tex/latex/pgf/utilities/pgffor.sty
-(/home/hutu/texmf/tex/latex/pgf/utilities/pgfkeys.sty
-(/home/hutu/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(/home/hutu/texmf/tex/latex/pgf/math/pgfmath.sty
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmath.code.tex))
-(/home/hutu/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-(/home/hutu/texmf/tex/generic/pgf/math/pgfmath.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen170
 \pgffor@skip=\dimen171
 \pgffor@stack=\toks35
 \pgffor@toks=\toks36
 ))
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-(/home/hutu/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count132
 \pgfplotmarksize=\dimen172
@@ -1101,7 +1122,7 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikznumberofcurrentchild=\count135
 \tikz@fig@count=\count136
 
-(/home/hutu/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count137
 \pgfmatrixcurrentcolumn=\count138
@@ -1109,59 +1130,59 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 )
 \tikz@expandcount=\count140
 
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
-hs.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.geometric.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
 )
 
-(/home/hutu/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.c
-ode.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 
 ))
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.misc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.misc.code.tex
 File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-(/home/hutu/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.t
-ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.misc.code.tex
 File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
 ))
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.symbols.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.symbols.code.tex
 File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-(/home/hutu/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.cod
-e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.symbols.code.tex
 File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
 ))
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.arrows.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.arrows.code.tex
 File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-(/home/hutu/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code
-.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.arrows.code.tex
 File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 ))
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.callouts.code.tex
-(/home/hutu/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.co
-de.tex))
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.multipart.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.callouts.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.callouts.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryshapes.multipart.code.tex
 File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
 )
 
-(/home/hutu/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.c
-ode.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
+s.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
 
 \pgfnodepartlowerbox=\box41
@@ -1185,19 +1206,20 @@ File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
 \pgfnodepartsixbox=\box59
 \pgfnodepartfivebox=\box60
 )))
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.c
-ode.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfit.code.tex
 File: tikzlibraryfit.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.5)
 )
-(/home/hutu/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.
-code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
-(/home/hutu/texmf/tex/generic/pgf/libraries/pgflibraryintersections.code.tex
-(/home/hutu/texmf/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
-\pgf@intersect@solutions=\count141
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersection
+s.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
 )
-(/home/hutu/texmf/tex/latex/pgfopts/pgfopts.sty
+\pgf@intersect@solutions=\count141
+) (/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 \pgfopts@list@add@a@toks=\toks37
 \pgfopts@list@add@b@toks=\toks38
@@ -1206,7 +1228,7 @@ Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count142
 )
-(/home/hutu/texmf/tex/latex/elocalloc/elocalloc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/elocalloc/elocalloc.sty
 Package: elocalloc 2016/12/15 v0.03 local allocation for LaTeX 2015+ (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
@@ -1461,24 +1483,24 @@ Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
 (./tickets.aux)
 \openout1 = `tickets.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1515,7 +1537,7 @@ LaTeX Font Info:    ... okay on input line 15.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box78
-Package hyperref Info: Link coloring OFF on input line 15.
+Package hyperref Info: Link coloring OFF on input line 17.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1524,9 +1546,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count325
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 17.
+LaTeX Info: Redefining \pageref on input line 17.
+LaTeX Info: Redefining \nameref on input line 17.
 
 (./tickets.out) (./tickets.out)
 \@outlinefile=\write5
@@ -1566,7 +1588,7 @@ e
 \c@lstlisting=\count332
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 15.
+LaTeX Info: Redefining \selectfont on input line 17.
  ABD: EveryShipout initializing macros<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx
 .cmap>>
 
@@ -1577,219 +1599,215 @@ LaTeX Warning: No \author given.
 \openout6 = `tickets.toc'.
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 18.
+(babel)             in language append on input line 20.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 18.
+(babel)             in language append on input line 20.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 18.
+(babel)             in language append on input line 20.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 18.
+(babel)             in language append on input line 20.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 20.
+(babel)             in language append on input line 22.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 20.
+(babel)             in language append on input line 22.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 21.
+(babel)             in language append on input line 23.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 21.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 74.
+(babel)             in language append on input line 23.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 76.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 80.
+(babel)             in language append on input line 82.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 80.
+(babel)             in language append on input line 82.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 80.
+(babel)             in language append on input line 82.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 80.
+(babel)             in language append on input line 82.
  [2]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 81.
+(babel)             in language append on input line 83.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 81.
+(babel)             in language append on input line 83.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 114.
+(babel)             in language append on input line 116.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 114.
+(babel)             in language append on input line 116.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 127.
+(babel)             in language append on input line 129.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 127.
+(babel)             in language append on input line 129.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 127.
+(babel)             in language append on input line 129.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 127.
+(babel)             in language append on input line 129.
  [3]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 128.
+(babel)             in language append on input line 130.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 128.
+(babel)             in language append on input line 130.
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 151.
+(babel)             in language append on input line 153.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 151.
+(babel)             in language append on input line 153.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 151.
+(babel)             in language append on input line 153.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 151.
+(babel)             in language append on input line 153.
 [4]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 152.
+(babel)             in language append on input line 154.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 152.
+(babel)             in language append on input line 154.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 153.
+(babel)             in language append on input line 155.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 153.
+(babel)             in language append on input line 155.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 156.
+(babel)             in language append on input line 158.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 156.
+(babel)             in language append on input line 158.
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--161
+Underfull \hbox (badness 10000) in paragraph at lines 159--163
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 168.
+(babel)             in language append on input line 170.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 168.
+(babel)             in language append on input line 170.
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--182
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 182.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 182.
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 182--184
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 199.
+(babel)             in language append on input line 184.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 199.
+(babel)             in language append on input line 184.
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+
+ []
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 199.
+(babel)             in language append on input line 201.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 199.
+(babel)             in language append on input line 201.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 201.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 201.
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
-
- []
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 215.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 215.
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 237.
+(babel)             in language append on input line 217.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 237.
+(babel)             in language append on input line 217.
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+
+ []
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 256.
+(babel)             in language append on input line 239.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 256.
+(babel)             in language append on input line 239.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 256.
+(babel)             in language append on input line 258.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 256.
+(babel)             in language append on input line 258.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 258.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 258.
 [6]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 288.
+(babel)             in language append on input line 290.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 288.
+(babel)             in language append on input line 290.
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--300
+Underfull \hbox (badness 10000) in paragraph at lines 299--302
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 300.
+(babel)             in language append on input line 302.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 300.
+(babel)             in language append on input line 302.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 300.
+(babel)             in language append on input line 302.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 300.
+(babel)             in language append on input line 302.
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 301--306
+Underfull \hbox (badness 10000) in paragraph at lines 303--308
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--311
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--319
+Underfull \hbox (badness 10000) in paragraph at lines 317--321
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 319.
+(babel)             in language append on input line 321.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 319.
+(babel)             in language append on input line 321.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 332.
+(babel)             in language append on input line 334.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 332.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 333.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 333.
+(babel)             in language append on input line 334.
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 335.
 Package babel Info: Redefining russian shorthand "~
@@ -1799,15 +1817,15 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 337.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 337.
+(babel)             in language append on input line 339.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 337.
+(babel)             in language append on input line 339.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 339.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 339.
 [8]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 337.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 337.
-Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 339.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 339.
@@ -1824,55 +1842,59 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 345.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 367.
+(babel)             in language append on input line 347.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 367.
+(babel)             in language append on input line 347.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 367.
+(babel)             in language append on input line 369.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 367.
+(babel)             in language append on input line 369.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 369.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 369.
  [9]
-Underfull \hbox (badness 10000) in paragraph at lines 428--430
+Underfull \hbox (badness 10000) in paragraph at lines 430--432
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 433.
+(babel)             in language append on input line 435.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 433.
+(babel)             in language append on input line 435.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 433.
+(babel)             in language append on input line 435.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 433.
+(babel)             in language append on input line 435.
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 437--440
+Underfull \hbox (badness 10000) in paragraph at lines 439--442
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 470.
+(babel)             in language append on input line 472.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 470.
+(babel)             in language append on input line 472.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 470.
+(hyperref)                removing `math shift' on input line 472.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 470.
+(hyperref)                removing `math shift' on input line 472.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--477
+Underfull \hbox (badness 10000) in paragraph at lines 475--479
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 478--480
+Underfull \hbox (badness 10000) in paragraph at lines 480--482
 
  []
 
 
-Overfull \hbox (10.50891pt too wide) detected at line 482
+Overfull \hbox (10.50891pt too wide) detected at line 484
 \OML/cmm/m/it/10 T\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 ) \OMS/cms
 y/m/n/10 ^^T []\OML/cmm/m/it/10 n []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 T\OT1/cmr
 /m/n/10 (\OML/cmm/m/it/10 max\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 k \OMS/cmsy/m/n/
@@ -1887,147 +1909,941 @@ t/10 T\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 k\OT1/cmr/m/n/10 )
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 487.
+(babel)             in language append on input line 489.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 487.
+(babel)             in language append on input line 489.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 487.
+(babel)             in language append on input line 489.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 487.
+(babel)             in language append on input line 489.
 [11]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 489.
+(babel)             in language append on input line 491.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 489.
+(babel)             in language append on input line 491.
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--492
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 493--499
+Underfull \hbox (badness 10000) in paragraph at lines 492--494
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--499
+Underfull \hbox (badness 10000) in paragraph at lines 495--501
 
  []
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 501.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 501.
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--507
+Underfull \hbox (badness 10000) in paragraph at lines 495--501
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 507.
+(babel)             in language append on input line 503.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 507.
+(babel)             in language append on input line 503.
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--516
+Underfull \hbox (badness 10000) in paragraph at lines 508--509
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 516.
+(babel)             in language append on input line 509.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 516.
+(babel)             in language append on input line 509.
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--518
+
+ []
+
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 516.
+(babel)             in language append on input line 518.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 516.
+(babel)             in language append on input line 518.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 518.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 518.
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 517--521
+Underfull \hbox (badness 10000) in paragraph at lines 519--523
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--567
+Underfull \hbox (badness 10000) in paragraph at lines 566--569
 
  []
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 567.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 567.
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language append on input line 569.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language append on input line 569.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 571.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 571.
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--583
+Underfull \hbox (badness 10000) in paragraph at lines 583--585
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 585.
+(babel)             in language append on input line 587.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 585.
+(babel)             in language append on input line 587.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 585.
+(babel)             in language append on input line 587.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 585.
+(babel)             in language append on input line 587.
 [13]
-Overfull \hbox (92.00975pt too wide) in paragraph at lines 595--625
+Overfull \hbox (92.00975pt too wide) in paragraph at lines 597--627
  []\T2A/cmr/bx/n/10 ��������������[] \T2A/cmr/m/n/10 ���-����-��� ��-��-�� ��-�
 ��-��� � ����-��� ���-��� $\OML/cmm/m/it/10 n \OT1/cmr/m/n/10 = \OML/cmm/m/it/1
 0 b[]$ []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 627--630
+Underfull \hbox (badness 10000) in paragraph at lines 629--632
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 640.
+(babel)             in language append on input line 643.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 640.
+(babel)             in language append on input line 643.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 640.
+(babel)             in language append on input line 651.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 640.
+(babel)             in language append on input line 651.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 653.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 653.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 653.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 653.
 [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 640.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 640.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 679.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 679.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.682 \begin{\textbf{Алгоритм}}
+                                       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.682 \begin{\textbf{Алгоритм}}
+                                       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.682 \begin{\textbf{Алгоритм}}
+                                       
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+! LaTeX Error: Environment \textbf {\IeC {\CYRA }\IeC {\cyrl }\IeC {\cyrg }\IeC
+ {\cyro }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyrm }} undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.682 \begin{\textbf{Алгоритм}}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.683 	\item �
+              �сли текущий узел пуст - вернуть NULL
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 683
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.684 	\item �
+              �сли ключ текущего узла равен иско...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 684
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.685 	\item �
+              �сли ключ текущего меньше искомог�...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 685
+[][]
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.686 \end{itemize}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.688 \begin{\textbf{Алгоритм}}
+                                       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.688 \begin{\textbf{Алгоритм}}
+                                       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.688 \begin{\textbf{Алгоритм}}
+                                       
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+! LaTeX Error: Environment \textbf {\IeC {\CYRA }\IeC {\cyrl }\IeC {\cyrg }\IeC
+ {\cyro }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyrm }} undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.688 \begin{\textbf{Алгоритм}}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.689 	\item �
+              �сли дерево пусто - заменить корен�...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 689
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.690 	\item �
+              �сли ключ текущего меньше искомог�...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 690
+[][]
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.691 \end{itemize}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.693 \begin
+            {\textbf{Алгоритм}}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.693 \begin{\textbf{Алгоритм}}
+                                       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.693 \begin{\textbf{Алгоритм}}
+                                       
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.693 \begin{\textbf{Алгоритм}}
+                                       
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+! LaTeX Error: Environment \textbf {\IeC {\CYRA }\IeC {\cyrl }\IeC {\cyrg }\IeC
+ {\cyro }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrt }\IeC {\cyrm }} undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.693 \begin{\textbf{Алгоритм}}
+                                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.694 	\item �
+              �сли текущий узел пуст - завершить ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 694
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.695 	\item �
+              �сли ключ текущего меньше данного ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 695
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.696 	\item �
+              �сли ключ текущего узла равен иско...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 696
+[][]
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 698.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 698.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 698.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 698.
+[15]
+
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.702 \end{itemize}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 703.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 703.
+
+Underfull \hbox (badness 10000) in paragraph at lines 705--707
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--726
+
+ []
+
+
+Overfull \hbox (11.10506pt too wide) in paragraph at lines 732--733
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 742.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 742.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 742.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 742.
+[16]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.743 s
+       plit по ключу вставляемого узла\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.747 s
+       plit по ключу удаляемого узла\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 750--751
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 755--757
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 758.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 758.
+
+Underfull \hbox (badness 10000) in paragraph at lines 760--762
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 763--769
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 770--777
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 777.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 777.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 777.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 777.
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 898.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 898.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 898.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 898.
+[18]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 901.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 901.
+
+Underfull \hbox (badness 10000) in paragraph at lines 902--904
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.913 �
+       �ерная высота вершины x - число чёрных �...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 913--922
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.923 �
+       �ставка узла производится на мето NIL'а....
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T2A\CYRB 
+l.924 ...�сировка для вершины х}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T2A\CYRB 
+l.924 ...�сировка для вершины х}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T2A\CYRB 
+l.924 ...�сировка для вершины х}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T2A\CYRB 
+l.924 ...�сировка для вершины х}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\reserved@a ...для вершины х\endcsname 
+                                                  
+l.924 ...�сировка для вершины х}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.925 	\item[]
+              Отец - черный - все ок
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 925
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.926 	\item[]
+              Отец - красный - нарушается свойст�...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 926
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 926--927
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 928--930
+
+ []
+
+<./pictures/rbt_in_ru.png, id=441, 301.125pt x 139.52126pt>
+File: ./pictures/rbt_in_ru.png Graphic file (type png)
+<use ./pictures/rbt_in_ru.png>
+Package pdftex.def Info: ./pictures/rbt_in_ru.png  used on input line 930.
+(pdftex.def)             Requested size: 301.12425pt x 139.5209pt.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 930.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 930.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 930.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 930.
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 932--937
+
+ []
+
+<./pictures/rbt_in_bu.png, id=456, 284.06125pt x 138.5175pt>
+File: ./pictures/rbt_in_bu.png Graphic file (type png)
+<use ./pictures/rbt_in_bu.png>
+Package pdftex.def Info: ./pictures/rbt_in_bu.png  used on input line 937.
+(pdftex.def)             Requested size: 284.06053pt x 138.51715pt.
+
+! LaTeX Error: \begin{\IeC {\CYRB }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyra }\IeC 
+{\cyrn }\IeC {\cyrs }\IeC {\cyri }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrv }\IeC {
+\cyrk }\IeC {\cyra } \IeC {\cyrd }\IeC {\cyrl }\IeC {\cyrya } \IeC {\cyrv }\IeC
+ {\cyre }\IeC {\cyrr }\IeC {\cyrsh }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyrery } \
+IeC {\cyrh }} on input line 924 ended by \end{description}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.939 \end{description}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T2A\CYRU 
+l.941 ...�и от количества детей}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T2A\CYRU 
+l.941 ...�и от количества детей}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T2A\CYRU 
+l.941 ...�и от количества детей}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \T2A\CYRU 
+l.941 ...�и от количества детей}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\reserved@a ...�чества детей\endcsname 
+                                                  
+l.941 ...�и от количества детей}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.942 	\item �
+              �сли у вершины нет ненулевых детей...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 942
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.943 	\item �
+              �сли у неё только один ненулевой р�...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 943
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.944 	\item �
+              �наче находим наименьший элемент �...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 944
+[][]
+ []
+
+
+! LaTeX Error: \begin{\IeC {\CYRU }\IeC {\cyrd }\IeC {\cyra }\IeC {\cyrl }\IeC 
+{\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyre } \IeC {\cyrv } \IeC {\cyrz }\IeC
+ {\cyra }\IeC {\cyrv }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyri }\IeC {\cyrm }\IeC 
+{\cyro }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyri } \IeC {\cyro }\IeC {\cyrt } \IeC
+ {\cyrk }\IeC {\cyro }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyrch }\IeC {\cyre }\IeC
+ {\cyrs }\IeC {\cyrt }\IeC {\cyrv }\IeC {\cyra } \IeC {\cyrd }\IeC {\cyre }\IeC
+ {\cyrt }\IeC {\cyre }\IeC {\cyrishrt }} on input line 941 ended by \end{enumer
+ate}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.945 \end{enumerate}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 946--954
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 954.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 954.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 954.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 954.
+[20 <./pictures/rbt_in_ru.png> <./pictures/rbt_in_bu.png>]
+<./pictures/rbt_del_1.png, id=464, 553.06625pt x 209.78375pt>
+File: ./pictures/rbt_del_1.png Graphic file (type png)
+<use ./pictures/rbt_del_1.png>
+Package pdftex.def Info: ./pictures/rbt_del_1.png  used on input line 954.
+(pdftex.def)             Requested size: 387.14374pt x 146.84761pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 957--958
+
+ []
+
+<./pictures/rbt_del_2.png, id=466, 314.17375pt x 132.495pt>
+File: ./pictures/rbt_del_2.png Graphic file (type png)
+<use ./pictures/rbt_del_2.png>
+Package pdftex.def Info: ./pictures/rbt_del_2.png  used on input line 958.
+(pdftex.def)             Requested size: 314.17297pt x 132.49466pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 959--960
+
+ []
+
+<./pictures/rbt_del_4.png, id=467, 247.92625pt x 133.49875pt>
+File: ./pictures/rbt_del_4.png Graphic file (type png)
+<use ./pictures/rbt_del_4.png>
+Package pdftex.def Info: ./pictures/rbt_del_4.png  used on input line 960.
+(pdftex.def)             Requested size: 247.92564pt x 133.4984pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 961--962
+
+ []
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 962.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 962.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 962.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 962.
+[21 <./pictures/rbt_del_1.png> <./pictures/rbt_del_2.png> <./pictures/rbt_del_4
+.png>]
+<./pictures/rbt_del_5.png, id=475, 300.12125pt x 143.53625pt>
+File: ./pictures/rbt_del_5.png Graphic file (type png)
+<use ./pictures/rbt_del_5.png>
+Package pdftex.def Info: ./pictures/rbt_del_5.png  used on input line 962.
+(pdftex.def)             Requested size: 300.12051pt x 143.53589pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.965 �
+       �се рекурсивные вызовы функции хвосто...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 968.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 968.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 968.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 968.
+[22 <./pictures/rbt_del_5.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 968.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 968.
  (./tickets.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 640.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 640.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 968.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 968.
 Package rerunfilecheck Info: File `tickets.out' has not changed.
-(rerunfilecheck)             Checksum: 270DBCC98644468FE43750821B3678B0;6687.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 640.
+(rerunfilecheck)             Checksum: 7C72AA8C8203C7C6230EB9A8A0518C40;7727.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 968.
  ) 
 Here is how much of TeX's memory you used:
- 43043 strings out of 494397
- 879685 string characters out of 6172288
- 923574 words of memory out of 5000000
- 45752 multiletter control sequences out of 15000+600000
+ 43427 strings out of 494397
+ 889174 string characters out of 6172287
+ 928646 words of memory out of 5000000
+ 46042 multiletter control sequences out of 15000+600000
  539800 words of font info for 43 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 133i,9n,163p,10379b,2209s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/hutu/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk>
- </home/hutu/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk> <
-/home/hutu/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1000.600pk> </h
-ome/hutu/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </hom
-e/hutu/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1728.600pk></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
-fb>
-Output written on tickets.pdf (14 pages, 218263 bytes).
+ 134i,9n,163p,10400b,2209s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/cat/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk> 
+</home/cat/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk> </h
+ome/cat/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1000.600pk> </home
+/cat/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/ca
+t/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1728.600pk></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on tickets.pdf (22 pages, 311260 bytes).
 PDF statistics:
- 695 PDF objects out of 1000 (max. 8388607)
- 385 compressed objects within 4 object streams
- 152 named destinations out of 1000 (max. 500000)
- 257 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 890 PDF objects out of 1000 (max. 8388607)
+ 531 compressed objects within 6 object streams
+ 238 named destinations out of 1000 (max. 500000)
+ 335 words of extra memory for PDF output out of 10000 (max. 10000000)
 
