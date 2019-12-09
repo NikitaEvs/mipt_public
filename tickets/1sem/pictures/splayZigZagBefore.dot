@@ -1,0 +1,9 @@
+digraph splay {
+	node [fontname = "Arial"];
+	grandmother -> mother
+	grandmother -> D
+	mother -> A
+	mother -> currentNode
+	currentNode -> B
+	currentNode -> C
+}

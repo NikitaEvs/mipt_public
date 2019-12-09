@@ -1,0 +1,7 @@
+digraph splay {
+	node [fontname = "Arial"];
+	root -> currentNode
+	root -> C
+	currentNode -> A
+	currentNode -> B	
+}
