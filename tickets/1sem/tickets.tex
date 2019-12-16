@@ -529,9 +529,12 @@
 		\sum_{k = \lfloor n/2 \rfloor]}^{n-1} ck = \frac{1}{2}(\lceil \frac{n}{2} \rceil + c(n-1)) \leq \frac{c}{2}(\frac{n+1}{2} - 1) \frac{3n - 2}{2} = c \frac{n - 1}{4} \frac{3n - 2}{2}
 	\]
 	Тогда выражение для $T(n)$ принимает вид:
-	\[
-		T(n) \leq n - 1 + \frac{2c(n-1)(3n-2)}{n*4*2} = n - 1 + c \frac{n - 1}{2n} \frac{3n - 2}{2} \leq \frac{c}{4} (n-1) + \frac{c}{4}(\frac{n - 1}{n}*(3n - 2)) \leq \frac{c}{4}(n - 1 + 3n - 2) = \frac{c}{4}(4n - 3) \leq cn
-	\]
+	\begin{align}
+		T(n) \leq n - 1 + \frac{2c(n-1)(3n-2)}{n*4*2} &= \notag\\
+		&= n - 1 + c \frac{n - 1}{2n} \frac{3n - 2}{2} &\leq \notag\\ 
+		&\leq \frac{c}{4} (n-1) + \frac{c}{4}(\frac{n - 1}{n}*(3n - 2)) &\leq \notag\\
+		&\leq \frac{c}{4}(n - 1 + 3n - 2) = \frac{c}{4}(4n - 3) \leq cn \notag
+	\end{align}
 	Таким образом $T(n) = O(n)$
 	\subsection{Сортировка подсчётом}
 	Пусть у нас n целых чисел в диапазоне от $0$ до $k$ \\
@@ -1107,9 +1110,13 @@ B-дерево может применяться для структуриров
 Пусть $a$ и $b$ - листья с общим родителем на максимальной глубине в оптимальном дереве $T$. Пусть $a.freq \leq b.freq$ и $x.freq \leq y.freq$. Будем считать, что $x \neq b$. \\
 Пусть мы получили дерево $T'$ перестановкой $a$ и $x$ и дерево $T''$ перестановкой $b$ и $y$ \\
 Тогда разность стоимостей $T$ и $T'$ равна:
-\[
-	B(T) - B(T') = \sum_{c \in C} c.freq*h_T (c) - \sum_{c \in C} c.freq*h_{T'} (c) = x.freq * h_T(x) + a.freq * h_T(a) - x.freq * d_{T'}(x) - a.freq * d_{T'}(a) = x.freq * h_T(x) + a.freq * h_T(a) - x.freq * h_T(a) - a.freq * h_T(x) = (a.freq - x.freq)(d_T(a) - d_T(x)) \geq 0
-\]
+\begin{align}
+	B(T) - B(T') &= \notag\\
+	&= \sum_{c \in C} c.freq*h_T (c) - \sum_{c \in C} c.freq*h_{T'} (c) &= \notag\\ 
+	&= x.freq * h_T(x) + a.freq * h_T(a) - x.freq * d_{T'}(x) - a.freq * d_{T'}(a) &= \notag\\
+	&= x.freq * h_T(x) + a.freq * h_T(a) - x.freq * h_T(a) - a.freq * h_T(x) &= \notag\\
+	&= (a.freq - x.freq)(d_T(a) - d_T(x)) \geq 0 \notag
+\end{align}
 Аналогично второй обмен не увеличивает стоимости, т.е. $B(T') - B(T'') \Leftrightarrow B(T'') \leq B(T) $, но $T$ - оптимальное дерево $\Leftrightarrow B(T) \leq B(T'') \Leftrightarrow B(T'') = B(T)$, т.е. $T''$ - оптимальное дерево
 
 Из \textbf{леммы 1} следует, что построение оптимального дерева путём объединения узлов можно начать с жадного выбора, при котором объединяются два символа с наименьшими частотами \\
