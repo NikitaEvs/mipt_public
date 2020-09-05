@@ -34,3 +34,11 @@ jobs:
                                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                                   BRANCH: gh-pages
                                   FOLDER: build
+                        - name: Upload
+                          uses: satackey/action-google-drive@v1
+                          with:
+                                  skicka-tokencache-json: ${{ secrets.SKICKA_TOKENCACHE_JSON }}
+                                  upload-from: ./build/resourses
+                                  upload-to: /lectures/
+                                  google-client-id: ${{ secrets.GOOGLE_CLIENT_ID }}
+                                  google-client-secret: ${{ secrets.GOOGLE_CLIENT_SECRET }}
