@@ -18,6 +18,7 @@ jobs:
                                   working_directory: lectures/programming_introduction
                                   args: -output-dir=../../raw_build
                                   compiler: pdflatex
+                                  post_compile: "pdflatex -output-dit=../../raw_build main.tex"
 
                         - name: Prepare
                           run: |
