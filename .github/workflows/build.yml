@@ -12,7 +12,7 @@ jobs:
                           uses: xu-cheng/latex-action@v2
                           with:
                                   root_file: main.tex
-                                  working_directory: lectures/programming_introducing
+                                  working_directory: lectures/programming_introduction
                                   args: -output-directory ../../raw_build
 
                         - name: Prepare
