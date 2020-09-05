@@ -23,7 +23,9 @@ jobs:
                         - name: Prepare
                           run: |
                                   mkdir build
-                                  mv raw_build/main.pdf build/  
+                                  cd build
+                                  mkdir resourses
+                                  mv raw_build/main.pdf build/resourses  
 
                         - name: Deploy
                           uses: JamesIves/github-pages-deploy-action@3.5.9
