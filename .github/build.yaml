@@ -1,0 +1,28 @@
+name: Build and deploy LaTeX
+
+on: push
+
+jobs:
+        build:
+                runs-on: ubuntu-latest
+                steps:
+                        - uses: actions/checkout@v2
+
+                        - name: Build
+                          uses: xu-cheng/latex-action@v2
+                          with:
+                                  root_file: main.tex
+                                  working_directory: lectures/programming_introducing
+                                  args: -output-directory ../../raw_build
+
+                        - name: Prepare
+                          run: |
+                                  mkdir build
+                                  mv raw_build/main.pdf build/  
+
+                        - name: Deploy
+                          uses: JamesIves/github-pages-deploy-action@3.5.9
+                          with: 
+                                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                                  BRANCH: gh-pages
+                                  FOLDER: build
