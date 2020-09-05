@@ -25,6 +25,7 @@ jobs:
                                   mkdir build
                                   cd build
                                   mkdir resourses
+                                  cd ..
                                   mv raw_build/main.pdf build/resourses  
 
                         - name: Deploy
