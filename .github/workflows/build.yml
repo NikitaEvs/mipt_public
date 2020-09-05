@@ -13,7 +13,7 @@ jobs:
                           with:
                                   root_file: main.tex
                                   working_directory: lectures/programming_introduction
-                                  args: -output-directory=../../raw_build
+                                  args: -output-dir=../../raw_build
                                   compiler: pdflatex
 
                         - name: Prepare
