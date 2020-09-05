@@ -8,6 +8,9 @@ jobs:
                 steps:
                         - uses: actions/checkout@v2
 
+                        - name: PrepareBuild
+                          run: |
+                                  mkdir raw_build
                         - name: Build
                           uses: xu-cheng/latex-action@v2
                           with:
