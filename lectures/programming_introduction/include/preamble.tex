@@ -132,3 +132,16 @@
   texcl=true,
   title=\lstname                   % вставляет название файла, если импорт
 }
+
+\makeatletter
+\newcommand{\highlight}[1]{%
+  \setbox\@tempboxa\hbox{#1}%
+  \ifdim\wd\@tempboxa>\linewidth
+    \noindent
+    \colorbox{pink}{%
+      \parbox{\dimexpr\linewidth-2\fboxsep}{#1}%
+    }%
+  \else
+    \colorbox{pink}{#1}%
+  \fi}%Highlighter.
+\makeatother
