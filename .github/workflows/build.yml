@@ -1,0 +1,44 @@
+name: Build and deploy LaTeX
+
+on: push
+
+jobs:
+        build:
+                runs-on: ubuntu-latest
+                steps:
+                        - uses: actions/checkout@v2
+
+                        - name: PrepareBuild
+                          run: |
+                                  mkdir raw_build
+                        - name: Build
+                          uses: xu-cheng/latex-action@v2
+                          with:
+                                  root_file: main.tex
+                                  working_directory: lectures/programming_introduction
+                                  args: -output-dir=../../raw_build
+                                  compiler: pdflatex
+                                  post_compile: "pdflatex -output-dir=../../raw_build main.tex"
+
+                        - name: Prepare
+                          run: |
+                                  mkdir build
+                                  cd build
+                                  mkdir resourses
+                                  cd ..
+                                  mv raw_build/main.pdf build/resourses  
+
+                        - name: Deploy
+                          uses: JamesIves/github-pages-deploy-action@3.5.9
+                          with: 
+                                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                                  BRANCH: gh-pages
+                                  FOLDER: build
+                        - name: Upload
+                          uses: satackey/action-google-drive@v1
+                          with:
+                                  skicka-tokencache-json: ${{ secrets.SKICKA_TOKENCACHE_JSON }}
+                                  upload-from: ./build/resourses
+                                  upload-to: /lectures/
+                                  google-client-id: ${{ secrets.GOOGLE_CLIENT_ID }}
+                                  google-client-secret: ${{ secrets.GOOGLE_CLIENT_SECRET }}
