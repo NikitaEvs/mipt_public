@@ -1,0 +1,2 @@
+\babel@toc {russian}{}
+\contentsline {section}{\numberline {1}Лекция 1: Графы}{2}{section.1}%

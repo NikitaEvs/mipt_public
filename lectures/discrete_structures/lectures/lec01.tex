@@ -1,0 +1,176 @@
+\lecture{1}{Графы}
+
+\begin{definition}
+	\highlight{Граф} --- пара множеств $(V, E)$, где  $V$ --- множество вершин, $E$ --- множество ребер
+\end{definition}
+
+\begin{definition}
+	\highlight{Ребро}  --- неупорядоченная пара двух различных вершин
+\end{definition}
+
+\begin{definition}
+	\highlight{Мультиграф} --- возможны кратные ребра (такие, которые соединяют одинаковые вершины)
+\end{definition}
+
+\begin{definition}
+	\highlight{Псевдограф} --- мультиграф с петлями
+\end{definition}
+
+\begin{definition}
+	\highlight{Ориентированный граф} --- в паре ребёр важен порядок
+\end{definition}
+
+\begin{definition}
+	\highlight{$U$ и  $V$ смежные}, если $\exists $ ребро, которое их соединяет 
+\end{definition}
+
+\begin{definition}
+	\highlight{Вершина инцидента ребру}, т.е. является концом ребра
+\end{definition}
+
+\begin{remark}
+	Существуют матрицы смежности и матрицы инцидентности
+\end{remark}
+
+\begin{definition}
+	\highlight{$deg (V)$}(степень вершины) --- количество соседей $V$ в графе
+\end{definition}
+
+\begin{theorem}[О рукопожатиях]
+	В графе $G = (V,E)$ число ребер $ \left| E \right| = \frac{1}{2} \sum_{v \in k} deg(v) $
+\end{theorem}
+\begin{proof}
+	Пусть $x$ --- количество единиц в матрице инцидентности.
+
+	В каждом столбце две единицы. С одной стороны $x = 2S$.
+
+	С другой стороны, в каждой строке ровно $deg(v_{i})$ единиц.
+
+	Т.е. \[
+		\sum_{v\in V}^{} deg(V) = X = 2S 	
+	\] 
+\end{proof}
+
+\begin{definition}
+	\highlight{Подграф} $G'= (V'. E')$ графа $G = (V,E)$ --- это граф, у которого $V' \subseteq V$ и $E' \subseteq E$ 
+\end{definition}
+
+\begin{definition}
+	\highlight{Порожденный подграф $G' = (V', E')$} графа $G = (V, E)$ --- это такой подграф $G$, что вместе
+	с $V'$ в $G'$ входят все ребра из $E$, имеющие в качестве концов 2 вершины из $V'$
+\end{definition}
+
+\begin{definition}
+	\highlight{G' = (V', E')} --- остовный подграф $G = (V,E)$, если для него $V' = V$ 
+\end{definition}
+
+\begin{definition}
+	\highlight{Маршрут} из $V_1$ в $V_{k}$ в графе $G = (V,E)$ --- это последовательность вида
+	\[
+	v_1 e_1 v_2 e_2 \ldots e_{k-1} v_{k}
+	\] 
+\end{definition}
+
+\begin{definition}
+	\highlight{Циклический маршрут}  --- маршрут с $v_1 = v_{k}$
+\end{definition}
+
+\begin{definition}
+	\highlight{Путь} --- маршрут без повторных ребер и $v_1 \neq v_{k}$ 
+\end{definition}
+
+\begin{definition}
+	\highlight{Простой путь (цепь)} --- путь без повторных вершин
+\end{definition}
+
+\begin{definition}
+	\highlight{Простой цикл} --- цикл без пересечений по вершинам
+\end{definition}
+
+\begin{definition}
+	\highlight{Длина пути (цикла)} --- количество ребер в них 
+\end{definition}
+
+\begin{remark}
+	Длина цикла --- $C_{k}$, длина цепи --- $P_{k}$
+\end{remark}
+
+\begin{definition}
+	\highlight{Связный граф} --- граф, в котором $ \left(\forall U,V \in V\right) \exists $ маршрут из $U$ в $V$ 
+\end{definition}
+
+\begin{definition}
+	\highlight{Расстояние между $U$ и $V$} --- длина кратчайшего пути из $U$ в $V$ 
+\end{definition}
+
+\begin{definition}
+	\highlight{Компонента связности графа $G$} --- максимальный по включению связный подграф графа $G$ 
+\end{definition}
+
+\begin{definition}
+	\highlight{Дерево} --- связный граф без циклов
+\end{definition}
+
+\begin{remark}
+	Если исходный граф не содержит циклов и связный, то он --- дерево
+\end{remark}
+
+\begin{remark}
+	Остовное дерево есть в любом связном графе
+\end{remark}
+
+\begin{remark}
+	В дереве на $n$ вершин ровно $n-1$ ребро
+\end{remark}
+
+\begin{remark}
+	В дереве с хотя бы двумя вершинами существует хотя бы $2$ листа
+\end{remark}
+
+\begin{definition}
+	\highlight{Мост} --- ребро, после удаления которого число компонент связности увеличивается
+\end{definition}
+
+\begin{definition}
+	\highlight{Точка сочленения} --- вершина, удаление которой приводит к увеличению количества компонент
+	связности
+\end{definition}
+
+\begin{definition}
+	\highlight{Блок (компонента двусвязности)} --- максимальный по включению связный подграф графа без собственных точек сочленения. 
+\end{definition}
+
+\begin{remark}
+	Изолированная вершина является блоком
+\end{remark}
+
+\begin{remark}
+	Ребро --- блок $ \iff$ ребро --- мост
+\end{remark}
+
+\begin{remark}
+	Мост не входит ни в какой цикл
+\end{remark}
+
+\begin{remark}
+	Ребро-блок --- не является мостом $\implies$ ребро содержится в цикле
+\end{remark}
+
+\begin{remark}
+	Любые два различных блока либо не пересекаются, либо пересекаются ровно по одной вершине, причём
+	эта вершина --- точка сочленения графа
+\end{remark}
+
+\begin{proof}
+	Пусть блоки пересекаются и есть две общие вершины. Тогда мы получим противоречие с условием максимальности
+	блока. Т.е. объединение блоков связное, вершишны связи не являются точками сочленения, т.е. всё это блок.
+
+	Рассмотрим теперь одну вершину пересечения. Пусть это не точка сочленения, т.е. при её удалении из одного
+	блока есть ещё путь в другой блок. Рассмотрим теперь два блока и этот путь, получаем связные граф без
+	точек сочленения, получили блок и противоречие.
+\end{proof}
+
+\begin{remark}
+	Если соединить блоки и соответствующие точки сочленения, то получим дерево
+\end{remark}
+
