@@ -1,10 +1,6 @@
 name: Build and deploy LaTeX
 
-on:
-        push:
-                branches:
-                        - '*'
-                        - '!ci_integration'
+on: push
 
 jobs:
         build:
