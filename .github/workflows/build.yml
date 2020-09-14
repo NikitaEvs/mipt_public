@@ -18,24 +18,41 @@ jobs:
                           run: |
                                   mkdir raw_build
                                   echo ::set-env name=BRANCH_NAME::$(echo ${GITHUB_REF#refs/heads/})
+                                  BRANCH_ARGUMENTS=(${${{ env.BRANCH_NAME }}//\// })
+
+                                  TYPE=${BRANCH_ARGUMENTS[0]}
+                                  SEMESTER=${BRANCH_ARGUMENTS[1]}
+                                  SUBJECT_NAME=${BRANCH_ARGUMENTS[2]}
+                                  CONSPECT_NAME=${BRANCH_ARGUMENTS[3]}
+
+                                  if [[ ${TYPE} == "l" ]]; then
+                                        TYPE="Lecture"
+                                  else
+                                        TYPE="Seminar"
+                                  fi
+
+                                  SEMESTER="${SEMESTER}_Semester"
+
+                                  echo ::set-env name=TYPE::$(echo ${TYPE})
+                                  echo ::set-env name=SEMESTER::$(echo ${SEMESTER})
+                                  echo ::set-env name=SUBJECT_NAME::$(echo ${SUBJECT_NAME})
+                                  echo ::set-env name=CONSPECT_NAME::$(echo ${CONSPECT_NAME})
+
                           id: extract_branch
                         - name: Build
                           uses: xu-cheng/latex-action@v2
                           with:
-                                  branch_name: ${{ env.BRANCH_NAME }}
+                                  conspetc_name: ${{ env.CONSPECT_NAME }}
                                   root_file: main.tex
-                                  working_directory: lectures/${{ env.BRANCH_NAME }}
-                                  args: -output-dir=../../raw_build -jobname=${{ env.BRANCH_NAME }}
+                                  working_directory: Notes/${{ env.TYPE }}/${{ env.SEMESTER }}/${{ env.SUBJECT_NAME }}
+                                  args: -output-dir=${{ GITHUB_WORKSPACE }}/raw_build -jobname=${{ env.CONSPECT_NAME }}
                                   compiler: pdflatex
-                                  post_compile: "pdflatex -output-dir=../../raw_build -jobname=$BRANCH_NAME main.tex"
+                                  post_compile: "pdflatex -output-dir=../../raw_build -jobname=$CONSPECT_NAME main.tex"
 
                         - name: Prepare
                           run: |
-                                  mkdir build
-                                  cd build
-                                  mkdir resourses
-                                  cd ..
-                                  mv raw_build/${{ env.BRANCH_NAME}}.pdf build/resourses  
+                                  mkdir -p build/Notes/${{ env.TYPE }}/${{ env.SEMESTER }}/${{ env.SUBJECT_NAME }}
+                                  mv raw_build/${{ env.CONSPECT_NAME}}.pdf build/Notes/${{ env.TYPE }}/${{ env.SEMESTER }}/${{ env.SUBJECT_NAME }} 
 
                         - name: Deploy
                           uses: JamesIves/github-pages-deploy-action@3.5.9
@@ -47,7 +64,7 @@ jobs:
                           uses: satackey/action-google-drive@v1
                           with:
                                   skicka-tokencache-json: ${{ secrets.SKICKA_TOKENCACHE_JSON }}
-                                  upload-from: ./build/resourses
-                                  upload-to: /lectures/${{ env.BRANCH_NAME }}
+                                  upload-from: ./build/Notes/${{ env.TYPE }}/${{ env.SEMESTER }}/${{ env.SUBJECT_NAME }}
+                                  upload-to: /lectures
                                   google-client-id: ${{ secrets.GOOGLE_CLIENT_ID }}
                                   google-client-secret: ${{ secrets.GOOGLE_CLIENT_SECRET }}
