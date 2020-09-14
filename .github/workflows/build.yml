@@ -36,6 +36,9 @@ jobs:
                           id: extract_branch
                         - name: Build
                           uses: xu-cheng/latex-action@v2
+                          env:
+                                  GITHUB_WORKSPACE = ${{ env.GITHUB_WORKSPACE }}
+                                  CONSPECT_NAME= ${{ env.CONSPECT_NAME }}
                           with:
                                   root_file: main.tex
                                   working_directory: Notes/${{ env.TYPE }}/${{ env.SEMESTER }}/${{ env.SUBJECT_NAME }}
