@@ -45,7 +45,7 @@ jobs:
                                   conspetc_name: ${{ env.CONSPECT_NAME }}
                                   root_file: main.tex
                                   working_directory: Notes/${{ env.TYPE }}/${{ env.SEMESTER }}/${{ env.SUBJECT_NAME }}
-                                  args: -output-dir=${{ GITHUB_WORKSPACE }}/raw_build -jobname=${{ env.CONSPECT_NAME }}
+                                  args: -output-dir=${{ env.GITHUB_WORKSPACE }}/raw_build -jobname=${{ env.CONSPECT_NAME }}
                                   compiler: pdflatex
                                   post_compile: "pdflatex -output-dir=../../raw_build -jobname=$CONSPECT_NAME main.tex"
 
