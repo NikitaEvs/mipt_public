@@ -37,7 +37,7 @@ jobs:
                         - name: Build
                           uses: xu-cheng/latex-action@v2
                           with:
-                                  conspetc_name: ${{ env.CONSPECT_NAME }}
+                                  conspect_name: ${{ env.CONSPECT_NAME }}
                                   root_file: main.tex
                                   working_directory: Notes/${{ env.TYPE }}/${{ env.SEMESTER }}/${{ env.SUBJECT_NAME }}
                                   args: -output-dir=${{ env.GITHUB_WORKSPACE }}/raw_build -jobname=${{ env.CONSPECT_NAME }}
