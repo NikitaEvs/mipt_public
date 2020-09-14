@@ -10,6 +10,7 @@ jobs:
 
                         - name: PrepareBuild
                           run: |
+                                  pwd
                                   mkdir raw_build
                                   BRANCH_NAME=${GITHUB_REF#refs/heads/}
                                   echo ::set-env name=BRANCH_NAME::$(echo ${BRANCH_NAME})
