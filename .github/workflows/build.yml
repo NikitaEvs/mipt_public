@@ -3,10 +3,9 @@ name: Build and deploy LaTeX
 on:
         push:
                 branches:
-                        - '*'
+                        - '**'
+                        - '!master'
                         - '!ci_integration'
-                        - '!lec*'
-                        - '!dev'
 
 jobs:
         build:
